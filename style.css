@@ -1,54 +1,77 @@
-tr:first-child
-{
+tr:first-child {
     background-color: black;
     color: white;
+    border: none;
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: start;
+  }
+  
+  table {
     border-collapse: collapse;
-    padding: 8px;
-}
-
-.youtube
-{
-    width: 15px;
-    height: 15px;
-    background-color: red;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 8px;
-    transition: all 0.3s ease-in-out;
-}
-.youtube:hover
-{
-transform: scale(1.1);
-}
-
-.x
-{
+  }
+  tr:nth-child(1) {
+    background-color: black;
     color: white;
-    width: 15px;
-    height: 15px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 8px;
+    border: none;
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: start;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  tr {
     transition: all 0.3s ease-in-out;
-}
-.x:hover
-{
-transform: scale(1.1);
+  }
+  
+  tr:nth-child(odd):not(:first-child) {
+    background-color: #cccfcd;
+    text-decoration: none;
+  }
+    tr:not(:first-child):hover {
+    background-color: #e6e8e7;
+    color: white;
+    
+  }
+  .twitter{
+    background-color: #000000;
+    color: white;
+    padding: 6px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  .youtube{
+    background-color: #CC0000;
+    color: white;
+    padding: 6px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  .instagram{
+    background-color:  #EA0C5F;
+    color: white;
+    padding: 6px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+.facebook{
+    background-color: #043d61;
+    color: white;
+    padding: 6px;
+    border-radius: 15px;
+    text-decoration: none;
 }
 
-.face
+td:hover 
 {
-    color: rgb(0, 0, 0);
-    width: 15px;
-    height: 15px;
-    background-color: rgb(0, 140, 255);
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 8px;
-    transition: all 0.3s ease-in-out;
-}
-.face:hover
-{
-transform: scale(1.1);
+    transform: scale(1.1);
 }
